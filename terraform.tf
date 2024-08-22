@@ -14,8 +14,7 @@ provider "aws" {
 }
 
 #Get the security group id
-data "aws_security_group" "existing_sg"
-{
+data "aws_security_group" "existing_sg"{
    name = "devops-bootcamp"
 }
 
