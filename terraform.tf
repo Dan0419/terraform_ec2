@@ -27,6 +27,7 @@ resource "aws_instance" "Test_EC2_Terraform" {
    tags = {
     	   Name = "Test_EC2_Terraform"
   	   }
+}
 
 #Configure the Prod EC2 Instance
 resource "aws_instance" "Prod_EC2_Terraform" {
